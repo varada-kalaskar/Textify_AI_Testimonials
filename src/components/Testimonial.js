@@ -11,7 +11,7 @@ const Testimonial = (props) => {
             const allTests = res.data;
             setUserDatas(allTests);
         });
-    },[]);
+    },[userDatas]);
     return ( 
         
         <div className="testimonial">
